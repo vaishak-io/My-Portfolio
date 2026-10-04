@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   statusShort: 'Available for Blue Team / SOC roles',
   email: 'karthivaishak95@gmail.com',
   linkedin: 'https://www.linkedin.com/in/-vaishak-s-',
-  github: 'https://github.com/vaishak-s', // Clean reference
+  github: 'https://github.com/vaishak-io',
   bio: 'Cybersecurity analyst focused on defensive security operations, SOC environments, and proactive threat detection. Hands-on experience in vulnerability assessment, SIEM event investigation, Wi-Fi security auditing, and Python-driven automation. Actively training in offensive and defensive workflows to protect critical digital infrastructure.',
   stats: [
     { label: 'Detection Scenarios', value: '40+', change: 'Simulated Labs' },

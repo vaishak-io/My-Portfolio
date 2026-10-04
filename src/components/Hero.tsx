@@ -8,7 +8,7 @@ import {
   Copy, 
   ExternalLink
 } from 'lucide-react';
-import { LinkedinIcon } from './Icons';
+import { LinkedinIcon, GithubIcon } from './Icons';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
 interface HeroProps {
@@ -113,6 +113,18 @@ export const Hero: React.FC<HeroProps> = ({
             <LinkedinIcon className="h-4 w-4 text-[#0077b5]" />
             <span>LinkedIn Profile</span>
             <ExternalLink className="h-3 w-3 text-sky-400/80 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+          </a>
+
+          {/* GitHub Badge */}
+          <a
+            href={PERSONAL_INFO.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-900 border border-zinc-700/80 hover:border-zinc-500 text-zinc-200 hover:text-white transition-all text-xs font-medium group"
+          >
+            <GithubIcon className="h-4 w-4 text-zinc-300 group-hover:text-white" />
+            <span>GitHub</span>
+            <ExternalLink className="h-3 w-3 text-zinc-500 group-hover:text-zinc-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
 
           {/* Download Resume / CV */}
